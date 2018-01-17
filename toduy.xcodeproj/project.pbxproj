@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E1390D8E200F616900FA20DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1390D8D200F616900FA20DE /* AppDelegate.swift */; };
-		E1390D90200F616900FA20DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1390D8F200F616900FA20DE /* ViewController.swift */; };
+		E1390D90200F616900FA20DE /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1390D8F200F616900FA20DE /* TodoListViewController.swift */; };
 		E1390D93200F616900FA20DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1390D91200F616900FA20DE /* Main.storyboard */; };
 		E1390D95200F616900FA20DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1390D94200F616900FA20DE /* Assets.xcassets */; };
 		E1390D98200F616900FA20DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1390D96200F616900FA20DE /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		E1390D8A200F616900FA20DE /* toduy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toduy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1390D8D200F616900FA20DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E1390D8F200F616900FA20DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1390D8F200F616900FA20DE /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		E1390D92200F616900FA20DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1390D94200F616900FA20DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1390D97200F616900FA20DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				E1390D8D200F616900FA20DE /* AppDelegate.swift */,
-				E1390D8F200F616900FA20DE /* ViewController.swift */,
+				E1390D8F200F616900FA20DE /* TodoListViewController.swift */,
 				E1390D91200F616900FA20DE /* Main.storyboard */,
 				E1390D94200F616900FA20DE /* Assets.xcassets */,
 				E1390D96200F616900FA20DE /* LaunchScreen.storyboard */,
@@ -136,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1390D90200F616900FA20DE /* ViewController.swift in Sources */,
+				E1390D90200F616900FA20DE /* TodoListViewController.swift in Sources */,
 				E1390D8E200F616900FA20DE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
