@@ -12,7 +12,8 @@
 		E1390D93200F616900FA20DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1390D91200F616900FA20DE /* Main.storyboard */; };
 		E1390D95200F616900FA20DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1390D94200F616900FA20DE /* Assets.xcassets */; };
 		E1390D98200F616900FA20DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1390D96200F616900FA20DE /* LaunchScreen.storyboard */; };
-		E1390DA420102D2200FA20DE /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1390DA320102D2200FA20DE /* Item.swift */; };
+		E1390DCB2011AF7800FA20DE /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1390DC92011AF7800FA20DE /* DataModel.xcdatamodeld */; };
+		E1390DCD2011D76600FA20DE /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1390DCC2011D76600FA20DE /* CategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +24,8 @@
 		E1390D94200F616900FA20DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1390D97200F616900FA20DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1390D99200F616900FA20DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E1390DA320102D2200FA20DE /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		E1390DCA2011AF7800FA20DE /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		E1390DCC2011D76600FA20DE /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		E1390DA220102CF100FA20DE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E1390DCC2011D76600FA20DE /* CategoryViewController.swift */,
 				E1390D8F200F616900FA20DE /* TodoListViewController.swift */,
 			);
 			path = Controllers;
@@ -77,7 +80,7 @@
 		E1390DA520102D3100FA20DE /* Data Model */ = {
 			isa = PBXGroup;
 			children = (
-				E1390DA320102D2200FA20DE /* Item.swift */,
+				E1390DC92011AF7800FA20DE /* DataModel.xcdatamodeld */,
 			);
 			path = "Data Model";
 			sourceTree = "<group>";
@@ -171,8 +174,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1390DCD2011D76600FA20DE /* CategoryViewController.swift in Sources */,
 				E1390D90200F616900FA20DE /* TodoListViewController.swift in Sources */,
-				E1390DA420102D2200FA20DE /* Item.swift in Sources */,
+				E1390DCB2011AF7800FA20DE /* DataModel.xcdatamodeld in Sources */,
 				E1390D8E200F616900FA20DE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +362,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E1390DC92011AF7800FA20DE /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E1390DCA2011AF7800FA20DE /* DataModel.xcdatamodel */,
+			);
+			currentVersion = E1390DCA2011AF7800FA20DE /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E1390D82200F616900FA20DE /* Project object */;
 }
